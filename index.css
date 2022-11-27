@@ -1,0 +1,53 @@
+
+body{
+    background-color: rgb(158, 177, 211);
+}
+.rock-container{
+    background-color: rgb(109, 184, 184);
+    width: 200px;
+    padding: 20px;
+}
+.tic-tac{
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+ 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+
+}
+
+.tic-tac div{
+    font-weight: bolder;
+    color: #131010;
+    font-size: 24pt;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    transition: all 0.3s;
+    font-size: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+.game-container{
+
+    display: flex;
+}
+.game-container >div{
+    margin-right: 15px;
+}
+#refresh{
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(243, 177, 55);
+    position: absolute;
+    left: 450px;
+    top: 430px;
+    padding: 10px;
+}
+#refresh:hover{
+    cursor: pointer;
+}
